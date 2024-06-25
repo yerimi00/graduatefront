@@ -1,0 +1,26 @@
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15rem;
+}
+
+.loadingTitle {
+  font-family: "Pretendard-Extrabold";
+  font-size: 50px;
+  letter-spacing: 130%;
+  margin: 15px;
+}
+
+.loadingSubTitle {
+  font-family: "Pretendard-Medium";
+  letter-spacing: 130%;
+  font-size: 30px;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navContainer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #002d56;
+  color: white;
+  font-weight: bold;
+  height: 50px;
+}
+.logo {
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+.menuDiv {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+.menu {
+  margin: 10px;
+}
+.grad {
+  margin-right: 10px;
+  display: block;
+  border-radius: 5px;
+  margin-left: 40px;
+  margin-top: 50px;
+}
+.horizontalLine {
+  display: right;
+  border: none;
+  border-top: 5px solid black;
+  margin: 10px auto;
+  position: absolute;
+  width: 330px;
+  top: 51%;
+  left: 46%;
+}
+.decision {
+  color: #002d56;
+  font-size: 50px;
+  font-display: flex;
+  top: 50%;
+  left: 30.5%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  font-size: 70px;
+  font-display: flex;
+}
+.gradually {
+  color: #002d56;
+  font-size: 50px;
+  font-display: flex;
+  top: 41%;
+  left: 24%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+/*졸업진행중*/
+.circleButton {
+  top: 35%;
+  left: -7%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  padding: 7px 40px;
+  color: #002d56;
+  font-weight: 1000;
+  background-color: white;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px 2px rgba(83, 80, 80, 0.1);
+  margin-left: 440px;
+}
+/*졸업요건 확인하기*/
+.biggerButton {
+  padding: 20px 40px;
+  background-color: #002d56;
+  border-radius: 20px;
+  position: absolute;
+  top: 85%;
+  right: 5%;
+  font-weight: bolder;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.click {
+  width: 30px;
+  height: auto;
+  bottom: 2%;
+  right: 2.5%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+.buttonWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+.firstButton {
+  width: 27%; /* Same width for all buttons */
+  height: 7%; /* Keep the height as specified */
+  border-radius: 5px;
+  border: none;
+  background-color: white;
+  position: relative;
+  box-shadow: 0 16px 24px 8px rgba(83, 80, 80, 0.3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  left: 46%;
+}
+.text {
+  color: #002d56;
+  font-weight: bolder;
+  font-size: 24px;
+  align-content: flex-end;
+  margin-right: 67px;
+}
+.recButton {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+.check {
+  display: flex;
+  align-items: center;
+  margin-left: 4.5px;
+}

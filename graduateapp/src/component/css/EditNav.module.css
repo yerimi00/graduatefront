@@ -1,0 +1,31 @@
+.Container {
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  margin-bottom: 3rem;
+}
+.InsertTitle {
+  display: flex;
+  font-size: 24px;
+  font-weight: bold;
+  justify-content: flex-start;
+  color: #333D4B;
+  margin: 0 0 10px 0;
+}
+.InsertSubTitleDiv {
+  display: flex;
+  flex-direction: row;
+  width: 750px;
+  border-bottom: solid 1px;
+}
+.subTitle {
+  display: flex;
+  padding: 10px;
+  font-weight: 600;
+  color: #333D4B;
+  text-decoration: none;
+}
+.subTitle:hover {
+  background-color: #F2F4F6;
+  color: #333D4B;
+}

@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.page {
+  padding: 5rem 7rem 0 7rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.InsertContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  margin: auto;
+  width: 50%;
+  padding: 20px;
+}
+
+.InsertTitle {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 50px 0 30px 0;
+  justify-content: center;
+  text-align: center;
+}
+
+.InsertSubContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.updateContainer {
+  margin: 4rem auto;
+}
+
+.inputInfo {
+  margin: 2rem 2rem 1rem 1rem;
+}
+
+.inputInfo3 {
+  margin: 11px 0 0 0;
+  background-color: #f3f5f7;
+  border: none;
+  border-radius: 8px;
+  width: 300px;
+  height: 50px;
+  /* font-family: "Pretendard-Regular";
+  font-size: 20px; */
+}
+
+.studentId {
+  margin: 11px 0 0 0;
+  background-color: #f3f5f7;
+  border: none;
+  border-radius: 8px;
+  width: 300px;
+  height: 50px;
+  font-family: "Pretendard-Regular";
+  font-size: 20px;
+}
+
+.text {
+  font-size: 14px;
+  color: #ff0000;
+  margin-top: 10px;
+}
+
+input[type="number"],
+input[type="text"] {
+  flex: 1;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+input[type="radio"] {
+  margin-left: 20px;
+  display: inline-block;
+}
+
+input[type="radio"] + label {
+  display: inline-block;
+}
+
+.dropdown2 {
+  width: 300px;
+  height: 50px;
+  position: relative;
+  user-select: none;
+}
+
+.dropdownButton2 {
+  padding: 15px 20px;
+  background-color: #f3f5f7;
+  border: none;
+  border-radius: 8px;
+  width: 300px;
+  height: 50px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dropdownContents2 {
+  position: absolute;
+  z-index: 1;
+  top: 110%;
+  left: 0;
+  padding: 10px;
+  background-color: #f3f5f7;
+  border: none;
+  border-radius: 8px;
+  width: 300px;
+}
+
+.dropdownItems2 {
+  padding: 3px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.dropdownItems2 :hover {
+  background-color: #f4f4f4;
+}
+
+.Completed {
+  width: 136px;
+  height: 55px;
+  border: none;
+  border-radius: 10px;
+  background-color: #002d56;
+  font-family: "Pretendard-Regular";
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center;
+  margin: 5rem 0 0.7rem 0;
+  justify-items: center;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}

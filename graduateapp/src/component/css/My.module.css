@@ -1,0 +1,490 @@
+/* My.js */
+* {
+  box-sizing: border-box;
+}
+
+.page {
+  padding: 5rem 7rem 0 7rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.pageSub {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.cheerUp {
+  font-family: "Pretendard-Medium";
+  font-size: 30px;
+  padding: 0 0 0.5rem 0;
+}
+
+.cheerUp2 {
+  font-family: "Pretendard-Medium";
+  font-size: 30px;
+  padding: 0 0 2rem 0;
+  font-weight: 500;
+}
+
+.infoIndexContainer {
+  display: grid;
+  margin-top: 2rem;
+  font-family: "Pretendard-Regular";
+  font-size: 31px;
+  color: #ffffff;
+  line-height: 2.5rem;
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #333333;
+  width: 650px;
+  height: 113px;
+  flex: left;
+  border-radius: 32px;
+  margin: 0 0 0.5rem 0;
+  padding: 1rem;
+}
+.infocontainer:hover {
+  background-color: #333333;
+}
+
+.infoIndex {
+  padding: 0 0 0 20px;
+  max-width: fit-content;
+  position: absolute;
+  float: left;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.updateState {
+  color: #1874ff;
+}
+
+.updatedState {
+  color: #008194;
+}
+
+.updateAction {
+  font-family: "Pretendard-Regular";
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center;
+  width: 121px;
+  height: 50px;
+  background-color: #555555;
+  border: none;
+  border-radius: 12px;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  position: relative;
+  float: right;
+}
+
+/* EditMenu.js */
+
+.updateInfoMenu {
+  float: left;
+  margin: 0 50px 0 0;
+}
+
+.indexContainer {
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+}
+
+.editInfo {
+  font-family: "Pretendard-Regular";
+  font-size: 20px;
+  background-color: #555555;
+  color: #ffffff;
+  text-align: center;
+  border: none;
+  border-radius: 12px;
+  padding: 1rem;
+  margin: 0 0 0.7rem 0;
+}
+
+.editInfo:hover,
+.editInfo:active {
+  background-color: #002d56;
+}
+
+.editInfo:visited {
+  background-color: #002d56;
+}
+
+.active {
+  background-color: #002d56;
+}
+
+/* EditProfiles.js */
+
+.infoUpdateContainer {
+  white-space: nowrap;
+}
+
+.updateContainer {
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 40px;
+  padding: 2rem 3rem;
+
+  width: 750px;
+  height: auto;
+  font-family: "Pretendard-Regular";
+  font-size: 18px;
+  margin-bottom: 3rem;
+
+  position: relative;
+  float: left;
+}
+
+.inputInfo {
+  font-family: "Pretendard-Regular";
+  font-size: 20px;
+  padding: 1rem;
+}
+
+.studentId {
+  margin: 11px 0 0 0;
+  background-color: #f3f5f7;
+  border: none;
+  border-radius: 8px;
+  width: 340px;
+  height: 50px;
+  font-family: "Pretendard-Regular";
+  font-size: 20px;
+}
+
+.inputInfo2 {
+  margin: 11px 0 0 0;
+  display: flex;
+  flex-direction: row;
+  font-family: "Pretendard-Regular";
+  font-size: 20px;
+}
+
+.inputInfo3 {
+  background-color: #f3f5f7;
+  border: none;
+  border-radius: 8px;
+  width: 330px;
+  height: 50px;
+  font-family: "Pretendard-Regular";
+  font-size: 20px;
+  margin: 7px 0 0 0;
+}
+
+.Completed {
+  width: 136px;
+  height: 55px;
+  border: none;
+  border-radius: 1000px;
+  background-color: #000000;
+  font-family: "Pretendard-Regular";
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center;
+  padding: 0.7rem;
+  margin: 0 0 0.7rem 0;
+  float: right;
+}
+
+/* MajorDropdown.js*/
+
+.dropdown2 {
+  width: 340px;
+  height: 50px;
+  position: relative;
+  user-select: none;
+}
+
+.dropdownButton2 {
+  padding: 15px 20px;
+  background-color: #f3f5f7;
+  border: none;
+  border-radius: 8px;
+  width: 340px;
+  height: 50px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dropdownContents2 {
+  position: absolute;
+  z-index: 1;
+  top: 110%;
+  left: 0;
+  padding: 10px;
+  background-color: #f3f5f7;
+  border: none;
+  border-radius: 8px;
+  width: 340px;
+}
+
+.dropdownItems2 {
+  padding: 3px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.dropdownItems2 :hover {
+  background-color: #f4f4f4;
+}
+
+/* EditCredits.js */
+
+.inputInfo4 {
+  display: flex;
+  flex-direction: row;
+  font-family: "Pretendard-Regular";
+  font-size: 20px;
+  background-color: #f3f5f7;
+  border: none;
+  border-radius: 8px;
+  width: 120px;
+  height: 50px;
+  padding: 15px 0 0 20px;
+  margin: 5px 2px 0 0;
+}
+
+.inputInfo5 {
+  background-color: #f3f5f7;
+  border: none;
+  border-radius: 8px;
+  width: 170px;
+  height: 50px;
+  font-family: "Pretendard-Regular";
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Radio */
+
+.studentRadio {
+  font-family: "Pretendard-Regular";
+  font-size: 20px;
+}
+
+[type="radio"] {
+  margin: 11px 7px -2px 0;
+  appearance: none;
+  border: max(2px, 0.1rem) solid gray;
+  border-radius: 50%;
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+[type="radio"]:checked {
+  border: 0.33rem solid #008194;
+}
+
+/* EditSubjects.js */
+
+.inputInfo6 {
+  font-family: "Pretendard-Regular";
+  font-size: 20px;
+  padding: 0.5rem 1rem;
+}
+
+.subjectContainer {
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 20px;
+  width: 400px;
+  height: auto;
+  margin: 2rem 0.7rem;
+  padding: 1rem 2rem;
+  font-family: "Pretendard-Regular";
+  font-size: 20px;
+}
+
+.labelStyle {
+  margin: 0 0 0 -1.3rem;
+  padding: 0 2rem 0 0;
+}
+
+/* EditExtras.js */
+
+.majorTest {
+  font-family: "Pretendard-Regular";
+  font-size: 20px;
+  padding: 1rem;
+  line-height: 2rem;
+}
+
+.EnglishPass {
+  font-family: "Pretendard-Regular";
+  font-size: 20px;
+  padding: 1rem;
+  line-height: 2rem;
+}
+
+.checkList1 {
+  font-family: "Pretendard-Regular";
+  font-size: 23px;
+}
+
+.checkList2 {
+  font-family: "Pretendard-Regular";
+  font-size: 23px;
+  margin: 0 0 0 -1rem;
+}
+
+/* checkbox */
+
+[type="checkbox"] {
+  margin: 11px 7px -2px 0;
+  appearance: none;
+  border: max(2px, 0.1rem) solid gray;
+  border-radius: 7px;
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+[type="checkbox"]:checked {
+  border: 0.33rem solid #008194;
+}
+
+/* ViewProfiles.js */
+
+.inputInfo9 {
+  font-family: "Pretendard-Regular";
+  font-size: 20px;
+  padding: 1rem 0 0 0;
+}
+
+.viewValue {
+  font-family: "Pretendard-Medium";
+  font-size: 21px;
+  padding: 1rem;
+}
+
+.viewInfo {
+  margin: 11px 0 0 0;
+  background-color: #f3f5f7;
+  border: none;
+  border-radius: 8px;
+  width: 340px;
+  height: 50px;
+  font-family: "Pretendard-Regular";
+  font-size: 20px;
+  text-align: center;
+  align-items: center;
+  padding: 0.8rem 0 0 0;
+}
+
+.inputInfo7 {
+  display: flex;
+  flex-direction: row;
+  font-family: "Pretendard-Regular";
+  font-size: 20px;
+  background-color: #f3f5f7;
+  border: none;
+  border-radius: 8px;
+  width: 170px;
+  height: 50px;
+  padding: 15px 0 0 20px;
+  margin: 5px 2px 0 0;
+}
+
+.subjectContainer2 {
+  /* background-color: #f4f4f4;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 15px; */
+  width: 250px;
+  height: auto;
+  margin: 0 0.7rem 0 1rem;
+  padding: 1rem 2rem 1rem 1rem;
+  font-family: "Pretendard-Regular";
+  font-size: 20px;
+  display: inline-flex;
+  flex-wrap: nowrap;
+}
+
+.subjectContainer3 {
+  /* background-color: #f4f4f4;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 15px; */
+  width: 250px;
+  height: auto;
+  margin: 0 0.7rem 0 3rem;
+  padding: 1rem 2rem 1rem 1rem;
+  font-family: "Pretendard-Regular";
+  font-size: 20px;
+  display: inline-flex;
+  flex-wrap: nowrap;
+}
+
+.labelIndex {
+  padding: 1rem 10rem 0 1rem;
+}
+
+.labelIndex2 {
+  padding: 1rem 10rem 0 2rem;
+}
+
+.inputInfo8 {
+  padding: 1rem 0 0 1rem;
+  font-size: 20px;
+}
+
+.Box,
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 5rem;
+  height: 5rem;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  padding: 0.1rem;
+}
+
+.contentTitle {
+  color: #002d56;
+  font-size: 15px;
+  font-weight: lighter;
+  border: solid 0px;
+  border-radius: 10px;
+  background-color: #f3f5f7;
+  width: 100%;
+  height: 50px;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+}
+.content {
+  width: 100%;
+  padding: 0px;
+  border: solid 0px;
+  border-radius: 10px;
+  background-color: #f3f5f7;
+}
+
+th,
+td {
+  padding: 0 0.5rem;
+  justify-items: center;
+  text-align: center;
+  align-items: center;
+}
+
+.CreditTable {
+  border-spacing: 1.5px;
+  /* border: 1px solid #000000 ; */
+}
